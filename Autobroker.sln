@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Autobroker", "Autobroker\Autobroker.pyproj", "{FED38D9D-4AE6-4158-9ADD-17A7E95C755D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FED38D9D-4AE6-4158-9ADD-17A7E95C755D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED38D9D-4AE6-4158-9ADD-17A7E95C755D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FE6CD77-9817-43BE-8E95-75C8A8C76486}
+	EndGlobalSection
+EndGlobal
