@@ -46,7 +46,7 @@ def get_rate():
     else:
         return print('error')
 
-def get_bid():
+def get_highest_bid():
     response = requests.request("GET", url, headers=headers)
     BTC = json.loads(response.text)
     if BTC['status'] == 'Ok':
@@ -54,7 +54,7 @@ def get_bid():
     else:
         return print('error')
 
-def get_ask():
+def get_lowest_ask():
     response = requests.request("GET", url, headers=headers)
     BTC = json.loads(response.text)
     if BTC['status'] == 'Ok':
@@ -77,7 +77,7 @@ def get_code():
         return (BTC['ticker']['market']['code'])
     else:
         return print('error')
-
+print(get_code())
 def get_currency_first():
     response = requests.request("GET", url, headers=headers)
     BTC = json.loads(response.text)

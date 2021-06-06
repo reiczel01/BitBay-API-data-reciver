@@ -2,7 +2,7 @@ import json
 import time
 import numpy as np
 import requests
-import data_get as dta
+import data_get_ticker as dta
 #work in progres
 rate_array = np.zeros(10)
 rate_bid = np.zeros(10)
@@ -11,9 +11,9 @@ rate_ask = np.zeros(10)
 i = 0
 for i in range(10):
     rate_array[i] = dta.get_rate()
-    rate_bid[i] = dta.get_bid()
-    rate_ask[i] = dta.get_ask()
-    print('rate:',dta.get_rate(),' bid:',dta.get_bid(),' ask:',dta.get_ask())
+    rate_bid[i] = dta.get_highest_bid()
+    rate_ask[i] = dta.get_lowest_ask()
+    print('rate:',dta.get_rate(),' bid:',dta.get_highest_bid(),' ask:',dta.get_lowest_ask())
     time.sleep(10)
 
 j = 0

@@ -22,7 +22,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Autobroker.py" />
-    <Compile Include="data_get.py">
+    <Compile Include="data_get_ticker.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_get_stats.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
